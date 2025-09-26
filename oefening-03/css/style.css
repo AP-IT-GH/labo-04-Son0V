@@ -1,0 +1,24 @@
+tr,
+th {
+  all: revert;
+}
+
+tr,
+th {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+th {
+  background-color: black;
+  color: white;
+}
+
+td {
+  text-align: center;
+  background-color: darkgray;
+}
+
+tr:nth-of-type(even) td {
+  background-color: beige;
+}
