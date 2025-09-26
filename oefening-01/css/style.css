@@ -1,0 +1,25 @@
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 2px solid #333;
+  background-color: #f0f0f0;
+  color: #333;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#knop1:hover {
+  background-color: red;
+  color: blue;
+  border: 10px dotted green;
+  box-shadow: 20px 20px black;
+}
+
+#knop2:active {
+  transform: translateY(2px);
+  color: gray;
+}
+
+#knop3:focus {
+  outline: red 3px dashed;
+}
