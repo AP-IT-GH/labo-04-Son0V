@@ -1,0 +1,8 @@
+tr,
+th {
+  all: revert;
+}
+tr {
+  border: 1px solid black;
+  text-align: center;
+}

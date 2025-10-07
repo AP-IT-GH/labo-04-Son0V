@@ -16,7 +16,7 @@ th {
 
 td {
   text-align: center;
-  background-color: darkblue;
+  background-color: darkgray;
 }
 
 tr:nth-of-type(even) td {
